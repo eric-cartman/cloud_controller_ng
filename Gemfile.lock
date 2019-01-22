@@ -98,8 +98,9 @@ GEM
     backports (3.11.4)
     beefcake (1.0.0)
     bit-struct (0.16)
-    bits_service_client (3.3.0)
+    bits_service_client (4.0.0.pre.1)
       activesupport
+      statsd-ruby (~> 1.4.0)
       steno
     builder (3.2.3)
     byebug (10.0.2)
@@ -457,7 +458,7 @@ DEPENDENCIES
   allowy
   awesome_print
   azure-storage (= 0.14.0.preview)
-  bits_service_client (~> 3.0)
+  bits_service_client (~> 4.0.0.pre.1)
   byebug
   cf-copilot!
   cf-perm (~> 0.0.10)
